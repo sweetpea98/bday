@@ -108,7 +108,7 @@ img {
 @media screen and (max-width: 600px) {
     .bday-container {
         width: 90%;
-        padding: 30px;
+        padding: 20px;
     }
 
     .button {
