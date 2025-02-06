@@ -105,7 +105,7 @@ img {
 
 
 /* Additional responsive tweaks */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .bday-container {
         width: 90%;
         padding: 30px;
@@ -113,6 +113,6 @@ img {
 
     .button {
         font-size: 16px;
-        padding: 20px 30px;
+        padding: 10px 20px;
     }
 }
