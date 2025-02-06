@@ -12,3 +12,7 @@ buttons.forEach(button => {
     clickSound.play();
   });
 });
+document.getElementById("play-music").addEventListener("click", function() {
+  let audio = document.getElementById("bg-music");
+  audio.play();
+});
