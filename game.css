@@ -52,17 +52,28 @@ h2 {
     color: #333;
 }
 
-.back-button {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
+/* Button styling */
+.button, .back-button {
+    font-family: 'Atma', cursive;
     font-size: 18px;
     color: white;
-    background-color: #ff7ea8;
-    text-decoration: none;
+    background: #ff9eb5; /* Pastel pink */
+    padding: 12px 24px;
+    border: none;
     border-radius: 10px;
-    transition: transform 0.2s, background 0.3s;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
+
+/* Hover effect on buttons */
+.button:hover, .back-button:hover {
+    background-color: #5599e6;
+    transform: scale(1.05);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+}
+
 
 .back-button:hover {
     background-color: #5599e6;
