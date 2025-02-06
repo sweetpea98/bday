@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick Your Present</title>
+    <link rel="stylesheet" href="game.css">
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="bg-music" loop autoplay>
+        <source src="Happy Birthday To You - THE KIBOOMERS Birthday Party Song for Kids.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="game-container">
+        <h2>Pick a Present! 🎁</h2>
+        <div class="gift-boxes">
+            <div class="gift-box" onclick="revealPrize(0)"><img src="gift_4051714.png" alt="Gift Box"></div>
+            <div class="gift-box" onclick="revealPrize(1)"><img src="gift_4051714.png" alt="Gift Box"></div>
+            <div class="gift-box" onclick="revealPrize(2)"><img src="gift_4051714.png" alt="Gift Box"></div>
+        </div>
+        <p id="prize-message"></p>
+        <a href="index.html" class="back-button">Back</a>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
