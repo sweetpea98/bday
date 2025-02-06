@@ -1,5 +1,7 @@
 // Load the click sound
-let clickSound = new Audio("click.mp3");
+let clickSound = new Audio();
+clickSound.src = "click.mp3";
+clickSound.load();
 
 // Get all buttons
 let buttons = document.querySelectorAll("button");
