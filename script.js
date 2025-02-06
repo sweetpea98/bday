@@ -1,18 +1,17 @@
-// Load the click sound
-let clickSound = new Audio();
-clickSound.src = "click.mp3";
-clickSound.load();
+// Load background music and click sound
+let clickSound = new Audio("sounds/click.mp3");
+let bgMusic = document.getElementById("bg-music");
 
-// Get all buttons
-let buttons = document.querySelectorAll("button");
+// Play background music when the page loads
+window.onload = function() {
+  bgMusic.play(); // Play background music
+};
 
-// Add click event to each button
-buttons.forEach(button => {
-  button.addEventListener("click", function() {
-    clickSound.play();
-  });
+// Play click sound on button clicks
+document.getElementById("button").addEventListener("click", function() {
+  clickSound.play(); // Play click sound
 });
-document.getElementById("play-music").addEventListener("click", function() {
-  let audio = document.getElementById("bg-music");
-  audio.play();
+
+document.getElementById("back-button").addEventListener("click", function() {
+  clickSound.play(); // Play click sound
 });
