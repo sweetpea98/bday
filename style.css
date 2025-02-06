@@ -5,6 +5,8 @@ body {
     background: url('bg.jpg') no-repeat center center fixed;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     text-align: center;
     cursor: url('cake_5019928.png') 16 16, auto; /* Correct path and size */
     color: #ff80ab;
